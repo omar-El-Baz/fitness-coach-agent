@@ -6,9 +6,9 @@ from sklearn.preprocessing import OneHotEncoder # For recreating input structure
 
 # --- Configuration and Constants ---
 USER_PROFILES_DB = 'user_profiles.csv'
-MODEL_PATH = 'models/diet_model.pkl'
-GYM_DATA_PATH = 'data/gym_recommendation_data.csv' # Mendeley dataset
-DIET_RAW_DATA_PATH = 'data/diet_recommendations.csv' # Kaggle dataset for dropdowns
+MODEL_PATH = 'diet_model.pkl'
+GYM_DATA_PATH = 'gym_recommendation_data.csv' # Mendeley dataset
+DIET_RAW_DATA_PATH = 'diet_recommendations.csv' # Kaggle dataset for dropdowns
 
 # --- Load Models and Data ---
 @st.cache_resource # Use cache_resource for models/data that don't change
